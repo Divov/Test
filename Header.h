@@ -2,7 +2,6 @@
 
 int day_week(int num)
 {
-    
     if (num >= 1 && num <= 365)
     {
         switch (num % 7)
@@ -34,8 +33,6 @@ int day_week(int num)
         case 0:
             printf("Sunday\n");
             return 7;
-            break;
-        default:
             break;
         }
     }

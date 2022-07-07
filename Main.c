@@ -4,11 +4,9 @@
 
 int main()
 {
-
     int num;
     printf("Enter your day: ");
     scanf_s("%i", &num);
     day_week(num);
     return 0;
-
 }
